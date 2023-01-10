@@ -1,0 +1,156 @@
+.header{
+    width: 100%;
+    padding: 2rem 20px;
+    min-height: 100vh;
+    background: linear-gradient(to right bottom, rgba(10,10,10,0.856), rgba(248, 154, 100, 0.788));
+    background-image: url('./images/sebastian.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    font-family: 'Roboto', sans-serif;
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 20px;
+    
+
+}
+.img-1{
+    width: 50px;
+    height: 50px;
+    margin-top: 0.4rem;
+    margin-left: 4rem;
+    color: white;
+}
+
+.list{
+    list-style-type: none;
+    display: flex;
+}
+.list li a {
+    text-decoration: none;
+    margin: 0 1.5rem;
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+}
+
+.form_1{
+    width: 50%;
+    display: flex;
+
+}
+
+input{
+    width: 100%;
+    padding: 10px;
+    margin-right: 1rem;
+}
+
+.button-1{
+    padding: 0 1.5rem;
+    background-color: transparent;
+    color: white;
+    text-transform: uppercase;
+    border: 1px solid;
+    cursor: pointer;
+}
+
+.button-1:hover{
+    background-color: white;
+    color: black;
+    transition: 1s;
+}
+
+.text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 2rem;
+}
+
+.text h1{
+    font-size: 60px;
+    font-weight: bolder;
+    color: white;
+}
+.text p{
+    color: white;
+}
+
+.text span{
+    color: rgb(254, 126, 80);
+}
+
+.print{
+    margin: 5rem;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(3, 300px);
+    justify-content: center;
+    gap: 2rem;
+}
+
+.product{
+    background-color: rgba(255,255,255,0.295);
+    padding: 12px;
+    align-items: center;
+}
+
+.product img{
+    width: 100%;
+    
+    margin-bottom: 5px;
+}
+
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-2{
+    margin: 15px;
+    padding: 5px 20px;
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.button-2:hover{
+    background-color: white;
+    color: black;
+    transition: 1s;
+}
+
+.product p{
+    color: black;
+    font-size: 20px;
+}
+
+.product span{
+    color: white;
+    margin-right: 0.5rem;
+}
+
+.a-2{
+    text-decoration: none;
+    color: red;
+}
+
+
